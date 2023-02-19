@@ -1,6 +1,6 @@
 import { RouterContracts, RouterFactories } from '@hyperlane-xyz/sdk';
 
-import { HelloWorld, HelloWorld__factory } from '../types';
+import { HelloWorld, HelloWorld__factory } from '../types/index';
 
 export type HelloWorldFactories = RouterFactories<HelloWorld>;
 
